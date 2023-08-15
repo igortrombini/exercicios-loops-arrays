@@ -13,14 +13,16 @@ public class Ex2_Nota {
         Scanner scan = new Scanner(System.in);
 
         int nota;
-
-        System.out.println("Nota: ");
+        System.out.println("digite uma nota");
         nota = scan.nextInt();
 
-        while(nota < 0 | nota > 10) {
-            System.out.println("Nota Inválida! Digite novamente: ");
+        while (nota < 0 | nota > 10) {
+            System.out.println("nota invalida! Digite Novamente ");
             nota = scan.nextInt();
+
+
         }
+
 
     }
 

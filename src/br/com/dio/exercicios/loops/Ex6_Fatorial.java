@@ -10,17 +10,17 @@ public class Ex6_Fatorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        int numero;
+
         System.out.println("Fatorial: ");
-        int fatorial = scan.nextInt();
+        numero = scan.nextInt();
 
-        int multiplicacao = 1;
+        for (int i = numero; i >= 1; i--) {
 
-        System.out.print(fatorial +"! = ");
-        for(int i = fatorial ; i >= 1 ; i --) {
-            multiplicacao = multiplicacao * i;
+            System.out.println(numero + " X " + i + " = " + numero * i);
+
+
         }
 
-        System.out.println(multiplicacao);
     }
-
 }

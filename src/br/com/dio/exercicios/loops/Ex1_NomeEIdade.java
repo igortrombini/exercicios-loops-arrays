@@ -13,18 +13,17 @@ public class Ex1_NomeEIdade {
 
         String nome;
         int idade;
-
-        while(true) {
-            System.out.println("Nome: ");
+        while (true) {
+            System.out.println("nome :");
             nome = scan.next();
             if (nome.equals("0")) break;
-
-            System.out.println("Idade: ");
+            System.out.println("idade :");
             idade = scan.nextInt();
         }
+        System.out.println("programa encerrado....");
 
-        System.out.println("Continua aqui...");
 
     }
+
 
 }
